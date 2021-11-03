@@ -1,0 +1,26 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    background-color: #111;
+}
+
+nav i{
+    color: #fff;
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 100%;
+}

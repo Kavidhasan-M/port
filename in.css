@@ -1,0 +1,164 @@
+@font-face{
+    font-family: 'port-semibold';
+    src: url('fonts/Satoshi-Bold.otf');
+    font-style: regular;
+}
+
+@font-face{
+    font-family: 'port-regular';
+    src: url('fonts/Satoshi-Regular.otf');
+    font-style: regular;
+}
+
+@font-face{
+    font-family: 'GS-medium';
+    src: url('fonts/GeneralSans-Medium.otf');
+    font-style: regular;
+}
+
+@font-face{
+    font-family: 'GS-regular';
+    src: url('fonts/GeneralSans-Regular.otf');
+    font-style: regular;
+}
+
+@font-face{
+    font-family: 'GS-semibold';
+    src: url('fonts/GeneralSans-Semibold.otf');
+    font-style: regular;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inter' !important;
+    /* color: #202124; */
+    color: #fff !important;
+    margin: 0;
+}
+
+.gradient{   
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: -99;
+    background-color: #090c0e;
+
+}
+
+.container{
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+
+header{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+
+}
+
+.greet{
+    font-family: 'GS-medium';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+header a{
+    font-family: 'Inter';
+    color: #138df1 !important;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+header a:hover{
+    padding-left: 10px;
+}
+
+
+
+img{
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+img:hover{
+    -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02); 
+  transform: scale(1.02);
+}
+
+.work-card{
+    margin-bottom: 10%;
+}
+
+.work-title{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.each-card{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.each-card p{
+    color: #fff;
+    max-width: 600px;
+}
+
+.each-card ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0%;
+}
+
+.each-card ul li{
+    padding-right: 10px;
+}
+
+footer{
+    height: 20vh;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+    .container{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+
+    .work-card{
+        flex-direction: column;
+        margin-bottom: unset;
+    }
+
+    .work-title{
+        font-size: 18px;
+    }
+
+    header{
+        padding-top: 20%;
+    }
+
+    .greet{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+}

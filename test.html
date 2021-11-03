@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            overflow: hidden;
+            height: 100%;
+        }
+
+        #image{
+            width: 100px;
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <p id="log"></p>
+
+        <img src="./ballon.png" alt="" id="image" onclick="imgs()">
+
+    </section>
+
+
+
+    
+    <script>
+        var c = 0;
+        function imgs(){
+            console.log(w);
+            
+        }
+        
+        
+        
+        const log = document.getElementById('log');
+        document.addEventListener('keypress', logKey);
+        
+        function logKey(e) {
+            c=c+1;
+            var w = 100*c
+            log.textContent += ` ${e.key}`;
+            if(e.keyCode=='97'){
+                document.getElementById("image").style.width = w+"px";
+                console.log(w);
+                if(w==500){
+                    document.getElementById("image").style.display = "none";
+
+                }
+                    
+            }
+            }
+    </script>
+</body>
+</html>

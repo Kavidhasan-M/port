@@ -1,0 +1,192 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+@font-face{
+    font-family: 'head_font';
+    src: url('./head_font.ttf');
+    font-style: normal;
+}
+
+*{
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+header{
+    background-image: url('./backk.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    font-family: 'head_font';
+    color: white;
+    font-size: 80px;
+    margin-bottom: 0%;
+}
+
+.about{
+  color: white;
+  text-align: center;
+  max-width: 700px;
+    
+}
+
+.me{
+    margin-top: 15px;
+}
+
+.fa-user-o{
+  padding-right: 10px;
+}
+
+.fa-file-o{
+  padding-right: 10px;
+}
+
+.abt-btn {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(30px);
+  padding: 8px 20px;
+  border-radius: 3px;
+  margin-right: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.resume-btn {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  padding: 8px 20px;
+  border-radius: 3px;
+  margin-left: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.resume-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.abt-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-top: 25px;
+  padding-right: 10px;
+}
+
+ul li a {
+  color: white;
+  font-size: 22px;
+  padding-right: 25px;
+  transition: color 0.3s ease-in-out;
+}
+
+ul li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section{
+  padding-top: 3%;
+  padding-bottom: 10%;
+  height: 100vh;
+}
+
+#work{
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.works{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.box{
+  transition: all .3s ease-in-out;
+}
+
+.box a{
+  text-decoration: none;
+}
+
+.box a img{
+  transition: all .3s ease-in-out;
+}
+
+.box a img:hover{
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02); 
+  transform: scale(1.02);
+}
+
+.work-title{
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.des{
+  color: #8a8a8a;
+  margin-bottom: 0%;
+}
+
+.box a ul{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+.box a ul li{
+  background-color: aliceblue;
+  color: rgb(11, 138, 241);
+  padding: 5px 18px;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+  .works{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .works .box{
+    margin-bottom: 50px;
+  }
+
+}
