@@ -23,13 +23,13 @@
 }
 
 body{
-    color: #fff !important;
+    color: #000 !important;
     font-family: 'Inter', sans-serif !important;
-    font-size: 19px !important;
+    font-size: 18px !important;
+    font-weight: 500;
 }
 
 #gradient-body{
-    background-color: #0a192f;
     height: 100vh;
     position: fixed;
     width: 100%;
@@ -70,6 +70,7 @@ body{
 header{
     padding-top: 10%;
     padding-bottom: 8%;
+    color: #000;
 }
 
 header .work-title{
@@ -116,13 +117,13 @@ header .work-info{
 .title2{
     color: #7d8186;
     text-transform: uppercase;
-    color: #138df1;
     font-size: 16px;
 }
 
 .title3{
-    color: #138df1;
-    font-weight: 600;
+    color: #7d8186;
+    text-transform: uppercase;   
+    font-size: 16px; 
     margin-bottom: 10px;
 }
 
