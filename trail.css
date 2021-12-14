@@ -1,0 +1,206 @@
+@font-face{
+    font-family: 'port-regular';
+    src: url('fonts/Inter-UI-Regular.otf');
+    font-style: regular;
+}
+
+@font-face{
+    font-family: 'port-bold';
+    src: url('fonts/Inter-UI-Medium.otf');
+    font-style: regular;
+}
+
+@font-face{
+    font-family: 'euro';
+    src: url('fonts/Aeonik-Regular.otf');
+    font-style: regular;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inter', sans-serif !important;
+    color: #101010 !important;
+    background-color: #fff !important;
+}
+
+.gradient{   
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: -99;
+    
+}
+
+nav{
+    height: 100px;
+    font-weight: 400;
+    color: #101010;
+}
+
+
+header{
+    padding-top: 5%;
+    text-align: center;
+    margin-bottom: 15%;
+
+}
+
+.greet{
+    font-family: 'port-bold';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+header a{
+    color: #101010 !important;
+    background-color: rgb(221, 221, 221);
+    border-radius: 50%;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all .2s ease-in-out;  
+}
+
+header .fa{
+    font-size: 19px;
+}
+
+header a:hover{  
+    background-color: rgb(206, 205, 205);
+    
+}
+
+header .resume i{
+    font-size: 14px;
+}
+
+
+
+.works{
+    margin-bottom: 100px;
+
+}
+
+.works a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.works img{
+    width: 100%;
+    border-radius: 10px;
+    transition: all .2s ease-in;
+}
+
+.works img:hover{
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02); 
+    transform: scale(1.02);
+}
+
+.works a .text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.work-title{
+    font-size: 20px;
+    color: #101010;
+    font-weight: 600;
+}
+
+.work-desc{
+    color: #636363;
+    font-weight: 400;
+    text-align: right;
+}
+
+.mailbox{
+    background-color: rgb(243, 243, 243);
+    color: #101010;
+    margin-bottom: 10%;
+    text-align: center;
+    padding: 20px;
+}
+
+.mailbox .title2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 995px){
+
+    .navbar{
+        height: unset;
+    }
+
+    header{
+        margin-top: 20%;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 480px){
+
+    nav{
+        display: none;
+    }
+
+    .greet{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .navbar-nav{
+        text-align: center;
+    }
+
+    header{
+        margin-bottom: 80px;
+    }
+
+    .works{
+        margin-bottom: 70px;
+    }
+
+    .work-title{
+        font-size: 18px;
+    }
+
+    .works a .text{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-title{
+        margin-bottom: 0%;
+    }
+
+    .work-desc{
+        text-align: center;
+    }
+
+    
+}

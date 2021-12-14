@@ -1,6 +1,18 @@
 @font-face{
     font-family: 'port-semibold';
-    src: url('fonts/Satoshi-Regular.otf');
+    src: url('fonts/Satoshi-Bold.otf');
+    font-style: regular;
+}
+
+@font-face{
+    font-family: 'port-regular';
+    src: url('fonts/Inter-UI-Regular.otf');
+    font-style: regular;
+}
+
+@font-face{
+    font-family: 'port-bold';
+    src: url('fonts/Inter-UI-Medium.otf');
     font-style: regular;
 }
 
@@ -23,7 +35,7 @@
 }
 
 body{
-    color: #000 !important;
+    color: #010101 !important;
     font-family: 'Inter', sans-serif !important;
     font-size: 18px !important;
     font-weight: 500;
@@ -74,7 +86,7 @@ header{
 }
 
 header .work-title{
-    font-family: 'GS-regular', sans-serif;
+    font-family: 'port-bold', sans-serif;
     font-size: 58px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -130,6 +142,8 @@ header .work-info{
 section{
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 .banner{

@@ -1,0 +1,122 @@
+
+@font-face{
+    font-family: 'port-bold';
+    src: url('fonts/Inter-UI-Medium.otf');
+    font-style: regular;
+}
+
+@font-face{
+    font-family: 'euro';
+    src: url('fonts/CreatoDisplay-Regular.otf');
+    font-style: regular;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inter', sans-serif !important;
+    color: #101010 !important;
+}
+
+.navbar{
+    height: 100px;
+    font-size: 16px !important;
+}
+
+.navbar-toggler{
+    color: #101010;
+    outline: none;
+}
+
+
+
+.top-head{
+    padding: 3% 12%;
+    font-size: 17px;
+}
+
+.work-info{
+    padding: 0% 12%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.work-info .pair{
+    margin-right: 5%;
+}
+
+
+section{
+    padding: 5% 12%;
+    font-size: 17px !important;
+}
+
+img{
+    width: 100%;
+}
+
+/* TITLE STYLING */
+
+.title3{
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.title4{
+    color: #8b8b8b;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.work-title{
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.title5{
+    text-align: center;
+    font-size: 14px;
+    font-style: oblique;
+}
+
+.team-count{
+    font-size: 52px;
+    font-weight: 700;
+    color: #4a7ff0;
+    margin-bottom: 0%;
+}
+
+img{
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+
+    .top-head{
+        padding: unset;
+        padding-top: 10%;
+    }
+
+    .work-info{
+        padding: unset;
+        justify-content: space-between;
+    }
+
+    .work-info .pair{
+        margin-right: unset;
+    }
+    
+
+    section{
+        padding: unset;
+        padding-top: 10%;
+    }
+    
+}
