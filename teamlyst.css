@@ -31,6 +31,32 @@ body{
     outline: none;
 }
 
+nav{
+    text-align: center;
+    margin-top: 4%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    padding-right: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #8b8b8b;
+    transition: all .2s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: #696969;
+}
+
 
 
 .top-head{
@@ -99,6 +125,11 @@ img{
 
 @media screen and (max-width: 480px) {
 
+    nav{
+        text-align: center;
+        margin-top: 8%;
+    }
+
     .top-head{
         padding: unset;
         padding-top: 10%;
@@ -117,6 +148,7 @@ img{
     section{
         padding: unset;
         padding-top: 10%;
+        padding-bottom: 3%;
     }
     
 }
