@@ -48,6 +48,10 @@ nav ul li a{
     transition: all .2s ease-in-out;
 }
 
+nav ul li a.active{
+    color: #111111;
+}
+
 nav ul li a:hover{
     color: #696969;
 }
@@ -61,17 +65,13 @@ nav ul li a:hover{
     
 }
 
-nav{
-    height: 100px;
-    font-weight: 400;
-    color: #101010;
-}
+
 
 
 header{
     padding-top: 2%;
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 8%;
 
 }
 
@@ -80,7 +80,8 @@ header{
     font-size: 50px;
     font-weight: 700;
     line-height: 65px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 header a{
@@ -110,8 +111,20 @@ header a.resume{
     background-color: transparent;
 }
 
-header .resume i{
-    font-size: 14px;
+header .btn{
+    background-color: rgb(206, 231, 255) !important;
+}
+
+header .btn a.resume i{
+    font-size: 16px;
+    padding-right: 10px;
+    
+}
+
+header .btn:hover{
+    background-color: rgb(194, 225, 255) !important;
+
+
 }
 
 
@@ -121,6 +134,12 @@ header .resume i{
 .works{
     margin-bottom: 100px;
 
+}
+
+.recent{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .works a{
@@ -171,6 +190,11 @@ header .resume i{
     font-weight: 700;
 }
 
+.contact{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
 
 
 

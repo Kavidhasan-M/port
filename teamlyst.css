@@ -53,6 +53,10 @@ nav ul li a{
     transition: all .2s ease-in-out;
 }
 
+nav ul li a.active{
+    color: #111;
+}
+
 nav ul li a:hover{
     color: #696969;
 }
@@ -80,6 +84,20 @@ section{
     font-size: 17px !important;
 }
 
+aside{
+    padding: 5% 12%;
+    font-size: 17px !important;
+    text-align: center;
+}
+
+aside img{
+    width: 300px;
+    border-radius: 50%;
+    -webkit-filter: grayscale(90%);
+	filter: grayscale(90%);
+    margin-bottom: 30px;
+}
+
 img{
     width: 100%;
 }
@@ -87,14 +105,15 @@ img{
 /* TITLE STYLING */
 
 .title3{
-    font-family: 'Lora';
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
     font-weight: 700;
 }
 
 .title6{
-    font-family: 'Lora';
-    font-size: 28px !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px !important;
     margin-top: 10px;
 }
 
