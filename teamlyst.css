@@ -241,7 +241,7 @@ img{
     }
     
 
-    section{
+    section,aside{
         padding: unset;
         padding-top: 10%;
         padding-bottom: 3%;
