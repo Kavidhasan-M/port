@@ -98,6 +98,71 @@ aside img{
     margin-bottom: 30px;
 }
 
+.jiffy-imgs{
+    text-align: center;
+}
+
+.jiffy-imgs .s-title{
+    font-weight: 500;
+}
+
+.jiffy-imgs img{
+    margin-bottom: 15px;
+}
+
+.contact{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+.bhome{
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.bhome:hover{
+    text-decoration: underline;    
+}
+
+
+
+footer{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+footer a{
+    color: #101010 !important;
+    background-color: rgb(221, 221, 221);
+    border-radius: 50%;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all .2s ease-in-out;  
+}
+
+footer a:hover{
+    background-color: rgb(211, 210, 210);
+}
+
+footer .fa{
+    font-size: 19px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #dfdfdf !important;
+}
+
 img{
     width: 100%;
 }

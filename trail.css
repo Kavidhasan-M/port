@@ -167,7 +167,7 @@ header .btn:hover{
 
 .work-title{
     font-size: 20px;
-    color: #101010;
+    color: #111;
     font-weight: 600;
 }
 
@@ -175,6 +175,10 @@ header .btn:hover{
     color: #636363;
     font-weight: 400;
     text-align: right;
+}
+
+.work-desc span{
+    color: #111;
 }
 
 .mailbox{

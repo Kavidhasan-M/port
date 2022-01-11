@@ -276,10 +276,43 @@
     </div>
 
 
+
+
+
+    <footer>
+    
+        <a href="mailto:mkavidhasan@gmail.com" class="fa fa-envelope"></a>
+        <a href="https://www.linkedin.com/in/kavidhasan-m/" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/kavidhasan12/" class="fa fa-instagram"></a>
+    
+    </footer>
+
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">
+        <i data-feather="chevrons-up"></i>
+    </a>
+
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
-        feather.replace()
+        feather.replace();
+
+        $(document).ready(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 50) {
+                        $('#back-to-top').fadeIn();
+                    } else {
+                        $('#back-to-top').fadeOut();
+                    }
+                });
+                // scroll body to 0px on click
+                $('#back-to-top').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 400);
+                    return false;
+                });
+            });
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
