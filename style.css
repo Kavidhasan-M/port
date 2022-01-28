@@ -1,20 +1,10 @@
 @font-face{
-    font-family: 'port-semibold';
+    font-family: 'port-semib';
     src: url('fonts/Satoshi-Bold.otf');
     font-style: regular;
 }
 
-@font-face{
-    font-family: 'port-regular';
-    src: url('fonts/GeneralSans-Regular.otf');
-    font-style: regular;
-}
 
-@font-face{
-    font-family: 'port-medium';
-    src: url('fonts/GeneralSans-Medium.otf');
-    font-style: regular;
-}
 
 html{
     scroll-behavior: smooth;
@@ -62,11 +52,11 @@ section{
 }
 
 .greet{
+    font-family: 'Inter', sans-serif;
     color: #fff;
-    font-size: 20px;
+    font-size: 100px;
     margin: 0%;
     padding-bottom: 0%;
-
 }
 
 .name{
